@@ -32,7 +32,7 @@ function weatherDetails(info){
     } else{
          //..get api data to properties in info-text   
         const city = info.name
-        const country = info.sys.country
+        const country = info.sys.country    
         const {description, id} = info.weather[0]
         const{feels_like,humidity, temp} = info.main
 
